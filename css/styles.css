@@ -1,0 +1,51 @@
+.container{
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#lumpia-tile, #tokneneng-tile, #jam-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #0a0413;
+    overflow: hidden;
+}
+
+#lumpia-tile span, #tokneneng-tile span, #jam-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+
+#lumpia-tile:hover, #tokneneng-tile:hover, #jam-tile:hover{
+    box-shadow: 0 1px 5px 1px #4e0606;
+}
+
+#lumpia-tile {
+    background: url('../images/lumpia.jfif') no-repeat;
+    background-position: center;
+}
+
+#tokneneng-tile {
+    background: url('../images/tokneneng.bmp') no-repeat;
+    background-position: center;
+}
+
+#jam-tile {
+    background: url('../images/yamjam.jfif') no-repeat;
+    background-position: center;
+}
